@@ -1,0 +1,23 @@
+/* main_navigation */
+%hover-fx-bw {
+    color:rgba(255,255,255,1);
+}
+
+a.navbar-brand {
+    font-family: $base-font-family;
+    font-size: $medium;
+    font-weight: 900;
+    letter-spacing: 0.0625em;
+    color: darken($base-color, 25%);
+    &:hover {
+        @extend %hover-fx-bw;
+    }
+    span {
+        font-family: $base-font-family;
+        font-size: $medium;
+        margin-bottom: 0px;
+        height: 52px;
+        line-height: 52px;
+        
+    }
+}

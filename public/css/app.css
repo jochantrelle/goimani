@@ -1,0 +1,48 @@
+/* main_navigation */
+a.navbar-brand:hover {
+  color: white; }
+
+a.navbar-brand {
+  font-family: "Philosopher";
+  font-size: 1.5em;
+  font-weight: 900;
+  letter-spacing: 0.0625em;
+  color: black; }
+  a.navbar-brand span {
+    font-family: "Philosopher";
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    height: 52px;
+    line-height: 52px; }
+
+.flash {
+  background-color: #F6624A;
+  color: white;
+  width: 200px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding: 1em;
+  display: none; }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../../fonts/glyphicons-halflings-regular.eot");
+  src: url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
+div.page-header.row {
+  background-color: black; }
+
+.floatingControl {
+  position: absolute;
+  margin-top: -52px; }
+  .floatingControl div button {
+    position: absolute; }
+  .floatingControl div button#changeImageBtn {
+    opacity: 1;
+    left: 5px; }
+  .floatingControl div button#originalImageBtn {
+    opacity: 0;
+    left: 145px; }
+
+/*# sourceMappingURL=app.css.map */

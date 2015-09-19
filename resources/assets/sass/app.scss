@@ -1,0 +1,62 @@
+@import 'partials/_base';
+// @import 'partials/_gradients';
+// @import 'partials/_headings';
+// @import 'partials/_welcome';
+@import 'partials/_navigation';
+// @import 'partials/_user_navigation';
+// @import 'partials/_jumbotron';
+// @import 'partials/_social';
+// @import 'partials/_discography';
+// @import 'partials/_dashboard';
+// @import 'partials/_tables';
+// @import 'partials/_pagination';
+
+// @import 'pages/_home_page';
+// @import 'pages/_about_page';
+// @import 'pages/_contact_page';	// empty
+// @import 'pages/_news_page';
+// @import 'pages/_events_page';
+// @import 'pages/_music_page';
+// @import 'pages/_photos_page';
+// @import 'pages/_videos_page';	// empty
+// @import 'pages/_fan_page';		// empty		
+// @import 'pages/_appuser_page';	
+// @import 'partials/_custom';	
+
+.flash {
+	background-color: #F6624A;
+	color : white;
+	width: 200px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	padding: 1em;
+	display: none;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../../fonts/glyphicons-halflings-regular.eot');
+  src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+} 
+
+div.page-header.row {
+	background-color: darken( $base-color, 25%);
+}
+.floatingControl {
+	position: absolute;
+	margin-top: -52px;
+	div {
+		button {
+			position: absolute;
+		}
+		button#changeImageBtn {
+			opacity: 1;
+			left: 5px;
+		}
+		button#originalImageBtn {
+			opacity: 0;
+			left: 145px;
+		}
+	}
+}
