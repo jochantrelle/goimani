@@ -15,10 +15,11 @@ elixir(function(mix) {
     mix.sass('app.scss');
 
     mix.styles([
+    	// Fonts
     	'philosopher.css',
-    	// 'Julius-Sans-One.css',
-    	// 'Open-Sans.css',
-    	// 'Amatic-SC.css',
+    	'lato.css',
+    	'cabinsketch.css',
+    	'fingerpaint.css',
     	'vendor/bootstrap.css',
     	// 'select2.min.css',
     	// 'glDatePicker.default.css',
@@ -35,7 +36,7 @@ elixir(function(mix) {
 		// 'libs/react.full.js',
 		// 'libs/glDatePicker.js',
 		// 'libs/select2.min.js',
-		'libs/TweenMax.min.js',
+		// 'libs/TweenMax.min.js',
 		// 'modules/PageDimensionMutatorModule.js',
 		// 'pubsub.js',
 		// 'main.js',

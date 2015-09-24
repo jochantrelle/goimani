@@ -1,0 +1,16 @@
+div.row.page-content {
+	article {
+		border-radius: 5px;
+		p.lead {
+			font-family: 'Philosopher';
+			color:white;
+			border-radius: 5px;
+			padding: 30px 30px 30px 15px;
+			margin-left: -15px;
+			span.point-break {
+				display: block;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

@@ -3,25 +3,27 @@
 // @import 'partials/_headings';
 // @import 'partials/_welcome';
 @import 'partials/_navigation';
-// @import 'partials/_user_navigation';
-// @import 'partials/_jumbotron';
-// @import 'partials/_social';
+@import 'partials/_jumbotron';
+@import 'partials/_social';
 // @import 'partials/_discography';
 // @import 'partials/_dashboard';
 // @import 'partials/_tables';
 // @import 'partials/_pagination';
 
-// @import 'pages/_home_page';
-// @import 'pages/_about_page';
-// @import 'pages/_contact_page';	// empty
+@import 'pages/_home';
+@import 'pages/_about'; 
+// @import 'pages/_music_page';
+@import 'pages/_contact';
 // @import 'pages/_news_page';
 // @import 'pages/_events_page';
-// @import 'pages/_music_page';
 // @import 'pages/_photos_page';
 // @import 'pages/_videos_page';	// empty
 // @import 'pages/_fan_page';		// empty		
 // @import 'pages/_appuser_page';	
 // @import 'partials/_custom';	
+
+// @import 'lato.css';
+// @omport 'fingerpaint.css';
 
 .flash {
 	background-color: #F6624A;
@@ -39,24 +41,140 @@
   src: url('../../fonts/glyphicons-halflings-regular.eot');
   src: url('../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 } 
-
-div.page-header.row {
-	background-color: darken( $base-color, 25%);
+html, body {
+    height: 100%;
 }
-.floatingControl {
-	position: absolute;
-	margin-top: -52px;
-	div {
-		button {
-			position: absolute;
-		}
-		button#changeImageBtn {
-			opacity: 1;
-			left: 5px;
-		}
-		button#originalImageBtn {
-			opacity: 0;
-			left: 145px;
-		}
-	}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+    background-image: url("../../images/backdrops/epk-backdrop-vector-01.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* IE */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/backdrops/epk-backdrop-vector-01.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/backdrops/epk-backdrop-vector-01.png', sizingMethod='scale')";
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+}
+#main-content {
+    /*margin-top: 50px;*/
+    display: block;
+    /*background-color: lightgrey;*/
+    z-index: 10;
+}
+.fixed-wrapper {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.sitePageImage {
+    position: relative;;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+    z-index: 2;
+}
+img#rallyRally {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 100%;
+    z-index: 3;
+}
+header {
+    z-index: 10;
+}
+
+.row.page-content {
+    background-color: rgba(54,54,54,0.0625);
+    padding: 15px;
+}
+// ul, li {
+//     list-style: none;
+// }
+ul {
+    padding-left: 0;
+}
+.panel, .panel .panel-heading, .panel .panel-body, .panel .panel-footer {
+    background-color: transparent;
+    border: none;
+}
+
+.panel.base-gradient, .base-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#999584+0,b0915c+39,b0915c+61,4f381c+100&amp;0.75+0,0.75+39,0.75+61,0.75+100 */
+    background: -moz-linear-gradient(top,  rgba(153,149,132,0.75) 0%, rgba(176,145,92,0.75) 39%, rgba(176,145,92,0.75) 61%, rgba(79,56,28,0.75) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,149,132,0.75)), color-stop(39%,rgba(176,145,92,0.75)), color-stop(61%,rgba(176,145,92,0.75)), color-stop(100%,rgba(79,56,28,0.75))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(153,149,132,0.75) 0%,rgba(176,145,92,0.75) 39%,rgba(176,145,92,0.75) 61%,rgba(79,56,28,0.75) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(153,149,132,0.75) 0%,rgba(176,145,92,0.75) 39%,rgba(176,145,92,0.75) 61%,rgba(79,56,28,0.75) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(153,149,132,0.75) 0%,rgba(176,145,92,0.75) 39%,rgba(176,145,92,0.75) 61%,rgba(79,56,28,0.75) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(153,149,132,0.75) 0%,rgba(176,145,92,0.75) 39%,rgba(176,145,92,0.75) 61%,rgba(79,56,28,0.75) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf999584', endColorstr='#bf4f381c',GradientType=0 ); /* IE6-9 */
+    box-shadow: -5px 15px 15px 2.5px rgba(0,0,0,0.25)
+}
+.base-transparent {
+    background-color: rgba(255,255,255,0.195);
+}
+.panel-heading .panel-title {
+    /*font-family: "Alegreya Sans SC", sans-serif;*/
+    font-weight: 700;
+    letter-spacing: 0.125em;
+} 
+.panel-footer {
+    /*font-family: "Alegreya Sans SC", sans-serif;*/
+    font-size: 1.125em;
+    font-weight: 500;
+    letter-spacing: 0.0625em;
+}
+a, a span, a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Philosopher';
+    font-weight: 100;
+}
+.centered {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center; 
+    width:99%;
+}
+
+.constrain {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+.glyphicon {
+    color: lighten($base-font-color, 25%);
 }

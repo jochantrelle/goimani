@@ -1,0 +1,49 @@
+ul.social-media-list {
+	li.contact {
+		list-style: none;
+		a {
+			height: auto;
+			.panel-heading {
+				padding: 0;
+				margin: 0 auto 15px auto;
+				min-height: 40px;
+				div {
+					img {
+						position: relative;
+						display: block;
+						box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.475);
+				        transition: all 0.2s ease-in-out;
+				        border-radius: 20px;
+				        max-width: 100px;
+				        min-width: 40px;
+				        margin: 0 auto 15px auto;
+				        &:hover {
+				        	-webkit-transform: scale(1.1);
+							transform: scale(1.1);
+							box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.575); 
+						}
+					}
+				}
+			}
+			.panel-body {
+				font-family: $base-font-family;
+				color: $base-color;
+				font-variant: small-caps;
+				font-size: $medium;
+				padding: 15px 0 0 0;
+				span {
+					display: block;
+					background-color: $base-transparent;
+					strong {
+						margin-top: 15px;
+					}
+				}
+			}
+			.panel-footer {
+				font-family: $content-font-family;
+				color: invert($base-font-color);
+				font-size: $small;
+			}
+		}
+	}
+}

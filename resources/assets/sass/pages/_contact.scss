@@ -1,0 +1,46 @@
+ul#contact-index {
+	li.quick-contact {
+		list-style: none;
+		float: left;
+		a {
+			height: auto;
+			.panel.panel-default {
+				.panel-heading {
+					text-align: center; 
+					.panel-title {
+						text-align: center; 
+						display: block;
+						.glyphicon {
+							display: inline-block;
+						}
+					}
+				}
+				.panel-body {
+					ul.contact-icon {
+						li {
+							list-style: none;
+							padding:0;
+							img {
+								transition: all 0.2s ease-in-out;
+								min-width: 40px;
+								&:hover {
+									-webkit-transform: scale(1.1);
+									transform: scale(1.1);
+								}
+							}
+						}
+					}
+				}
+				.panel-footer {
+					font-family: $content-font-family;
+					text-align: center;
+					font-size: 1.5em;
+					color: invert($base-font-color);
+					span:nth-of-type(2) {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

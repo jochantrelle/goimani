@@ -1,23 +1,38 @@
 /* main_navigation */
 %hover-fx-bw {
-    color:rgba(255,255,255,1);
+    color:darken($base-font-color, 25%);
 }
-
+.navbar.navbar-default {
+    background-color: $base-transparent;
+}
 a.navbar-brand {
-    font-family: $base-font-family;
-    font-size: $medium;
-    font-weight: 900;
-    letter-spacing: 0.0625em;
-    color: darken($base-color, 25%);
-    &:hover {
-        @extend %hover-fx-bw;
-    }
     span {
+        margin:0; 
+        padding:0 0 15px 0;
+        position: relative;
+        display: inline-block; 
+    }
+    span.pre {
+        display: inline;
+        position: relative;
+        color: darken($base-font-color, 15%);
+        font-size: $medium;
+        text-indent: -15px;
+        font-family: $special-font-family;
+        font-weight: 700;
+    }
+    span.name {
         font-family: $base-font-family;
         font-size: $medium;
-        margin-bottom: 0px;
-        height: 52px;
-        line-height: 52px;
-        
+        font-weight: 900;
+        letter-spacing: 0.0625em;
+        color: lighten($base-font-color, 15%);
+        text-shadow: 1px 1px 4px darken($base-font-color-faded, 35%);
+        &:hover {
+            @extend %hover-fx-bw;
+        }
+    }
+    img {
+        width: 20px;
     }
 }

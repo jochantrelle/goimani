@@ -24,6 +24,110 @@
        url('../fonts/philosopher/philosopher-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/philosopher/philosopher-v7-latin-700.svg#Philosopher') format('svg'); /* Legacy iOS */
 }
+/* lato-100 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../../fonts/lato/lato-v11-latin-100.eot'); /* IE9 Compat Modes */
+  src: local('Lato Hairline'), local('Lato-Hairline'),
+       url('../../fonts/lato/lato-v11-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/lato/lato-v11-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/lato/lato-v11-latin-100.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-300 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../../fonts/lato/lato-v11-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Lato Light'), local('Lato-Light'),
+       url('../../fonts/lato/lato-v11-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/lato/lato-v11-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/lato/lato-v11-latin-300.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/lato/lato-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../../fonts/lato/lato-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/lato/lato-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/lato/lato-v11-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/lato/lato-v11-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Lato Bold'), local('Lato-Bold'),
+       url('../../fonts/lato/lato-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/lato/lato-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/lato/lato-v11-latin-700.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../../fonts/lato/lato-v11-latin-900.eot'); /* IE9 Compat Modes */
+  src: local('Lato Black'), local('Lato-Black'),
+       url('../../fonts/lato/lato-v11-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/lato/lato-v11-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/lato/lato-v11-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/lato/lato-v11-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+}
+/* cabin-sketch-regular - latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Cabin Sketch Regular'), local('CabinSketch-Regular'),
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-regular.svg#CabinSketch') format('svg'); /* Legacy iOS */
+}
+/* cabin-sketch-700 - latin */
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('CabinSketch Bold'), local('CabinSketch-Bold'),
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/cabinsketch/cabin-sketch-v8-latin-700.svg#CabinSketch') format('svg'); /* Legacy iOS */
+}
+/* finger-paint-regular - latin */
+@font-face {
+  font-family: 'Finger Paint';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Finger Paint'), local('FingerPaint-Regular'),
+       url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/fingerpaint/finger-paint-v4-latin-regular.svg#FingerPaint') format('svg'); /* Legacy iOS */
+}
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6592,21 +6696,182 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 /* main_navigation */
-a.navbar-brand:hover {
-  color: white; }
+a.navbar-brand span.name:hover {
+  color: rgba(0, 0, 0, 0.9); }
 
-a.navbar-brand {
+.navbar.navbar-default {
+  background-color: rgba(255, 255, 255, 0.195); }
+
+a.navbar-brand span {
+  margin: 0;
+  padding: 0 0 15px 0;
+  position: relative;
+  display: inline-block; }
+
+a.navbar-brand span.pre {
+  display: inline;
+  position: relative;
+  color: rgba(23, 16, 8, 0.9);
+  font-size: 1.5em;
+  text-indent: -15px;
+  font-family: "Finger Paint";
+  font-weight: 700; }
+
+a.navbar-brand span.name {
   font-family: "Philosopher";
   font-size: 1.5em;
   font-weight: 900;
   letter-spacing: 0.0625em;
-  color: black; }
-  a.navbar-brand span {
+  color: rgba(135, 96, 48, 0.9);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.49); }
+
+a.navbar-brand img {
+  width: 20px; }
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0.195);
+  font-weight: 600; }
+  .jumbotron .container-fluid div {
+    position: relative;
+    width: 99%; }
+    .jumbotron .container-fluid div h1 {
+      font-weight: 100;
+      color: rgba(173, 123, 61, 0.9);
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+      text-align: center; }
+    .jumbotron .container-fluid div p {
+      font-family: "Lato";
+      font-weight: 100;
+      color: rgba(255, 255, 255, 0.9);
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+      text-align: center; }
+
+ul.social-media-list li.contact {
+  list-style: none; }
+  ul.social-media-list li.contact a {
+    height: auto; }
+    ul.social-media-list li.contact a .panel-heading {
+      padding: 0;
+      margin: 0 auto 15px auto;
+      min-height: 40px; }
+      ul.social-media-list li.contact a .panel-heading div img {
+        position: relative;
+        display: block;
+        box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.475);
+        transition: all 0.2s ease-in-out;
+        border-radius: 20px;
+        max-width: 100px;
+        min-width: 40px;
+        margin: 0 auto 15px auto; }
+        ul.social-media-list li.contact a .panel-heading div img:hover {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+          box-shadow: 0 5px 10px 4px rgba(0, 0, 0, 0.575); }
+    ul.social-media-list li.contact a .panel-body {
+      font-family: "Philosopher";
+      color: #b0915c;
+      font-variant: small-caps;
+      font-size: 1.5em;
+      padding: 15px 0 0 0; }
+      ul.social-media-list li.contact a .panel-body span {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.195); }
+        ul.social-media-list li.contact a .panel-body span strong {
+          margin-top: 15px; }
+    ul.social-media-list li.contact a .panel-footer {
+      font-family: "Lato";
+      color: rgba(176, 199, 227, 0.9);
+      font-size: 0.65em; }
+
+#home .home-item {
+  margin-top: 45px;
+  border: 1px solid #dacbb2;
+  border-radius: 5px; }
+  #home .home-item div audio {
+    display: block;
+    position: relative;
+    width: 99%;
+    margin: 0 auto; }
+  #home .home-item div h1 {
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 600;
+    color: rgba(60, 43, 21, 0.9); }
+  #home .home-item div h2 {
     font-family: "Philosopher";
-    font-size: 1.5em;
-    margin-bottom: 0px;
-    height: 52px;
-    line-height: 52px; }
+    text-align: center;
+    color: rgba(60, 43, 21, 0.9); }
+  #home .home-item div hr {
+    display: block;
+    color: #b0915c;
+    margin-left: -15px;
+    margin-top: 5px; }
+  #home .home-item div p {
+    font-family: "Lato";
+    font-size: 1.5em; }
+  #home .home-item div p.writers {
+    font-weight: 1em;
+    text-align: center;
+    color: rgba(243, 233, 221, 0.9); }
+  #home .home-item div.controls button.btn.btn-primary {
+    margin-bottom: 15px;
+    background-color: #b0915c;
+    border-color: #a3844f; }
+    #home .home-item div.controls button.btn.btn-primary:hover {
+      background-color: #927647; }
+  #home .home-item ul.press-photos li, #home .home-item ul#contact-index li, #home .home-item ul.contact-icon li {
+    list-style: none; }
+  #home .home-item ul.regular-list {
+    position: relative;
+    display: inline-block; }
+    #home .home-item ul.regular-list li {
+      position: relative;
+      font-family: "Lato";
+      font-weight: 300;
+      font-size: 1.5em;
+      margin: 0;
+      padding: 0; }
+
+div.row.page-content article {
+  border-radius: 5px; }
+  div.row.page-content article p.lead {
+    font-family: 'Philosopher';
+    color: white;
+    border-radius: 5px;
+    padding: 30px 30px 30px 15px;
+    margin-left: -15px; }
+    div.row.page-content article p.lead span.point-break {
+      display: block;
+      margin-bottom: 15px; }
+
+ul#contact-index li.quick-contact {
+  list-style: none;
+  float: left; }
+  ul#contact-index li.quick-contact a {
+    height: auto; }
+    ul#contact-index li.quick-contact a .panel.panel-default .panel-heading {
+      text-align: center; }
+      ul#contact-index li.quick-contact a .panel.panel-default .panel-heading .panel-title {
+        text-align: center;
+        display: block; }
+        ul#contact-index li.quick-contact a .panel.panel-default .panel-heading .panel-title .glyphicon {
+          display: inline-block; }
+    ul#contact-index li.quick-contact a .panel.panel-default .panel-body ul.contact-icon li {
+      list-style: none;
+      padding: 0; }
+      ul#contact-index li.quick-contact a .panel.panel-default .panel-body ul.contact-icon li img {
+        transition: all 0.2s ease-in-out;
+        min-width: 40px; }
+        ul#contact-index li.quick-contact a .panel.panel-default .panel-body ul.contact-icon li img:hover {
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+    ul#contact-index li.quick-contact a .panel.panel-default .panel-footer {
+      font-family: "Lato";
+      text-align: center;
+      font-size: 1.5em;
+      color: rgba(176, 199, 227, 0.9); }
+      ul#contact-index li.quick-contact a .panel.panel-default .panel-footer span:nth-of-type(2) {
+        display: block; }
 
 .flash {
   background-color: #F6624A;
@@ -6623,20 +6888,130 @@ a.navbar-brand {
   src: url("../../fonts/glyphicons-halflings-regular.eot");
   src: url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
-div.page-header.row {
-  background-color: black; }
+html, body {
+  height: 100%; }
 
-.floatingControl {
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+  font-family: 'Lato';
+  background-image: url("../../images/backdrops/epk-backdrop-vector-01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* IE */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/backdrops/epk-backdrop-vector-01.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/backdrops/epk-backdrop-vector-01.png', sizingMethod='scale')"; }
+
+.container {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
+
+.content {
+  text-align: center;
+  display: inline-block; }
+
+.title {
+  font-size: 96px; }
+
+#main-content {
+  /*margin-top: 50px;*/
+  display: block;
+  /*background-color: lightgrey;*/
+  z-index: 10; }
+
+.fixed-wrapper {
   position: absolute;
-  margin-top: -52px; }
-  .floatingControl div button {
-    position: absolute; }
-  .floatingControl div button#changeImageBtn {
-    opacity: 1;
-    left: 5px; }
-  .floatingControl div button#originalImageBtn {
-    opacity: 0;
-    left: 145px; }
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+.sitePageImage {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 100%;
+  z-index: 2; }
+
+img#rallyRally {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  z-index: 3; }
+
+header {
+  z-index: 10; }
+
+.row.page-content {
+  background-color: rgba(54, 54, 54, 0.0625);
+  padding: 15px; }
+
+ul {
+  padding-left: 0; }
+
+.panel, .panel .panel-heading, .panel .panel-body, .panel .panel-footer {
+  background-color: transparent;
+  border: none; }
+
+.panel.base-gradient, .base-gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#999584+0,b0915c+39,b0915c+61,4f381c+100&amp;0.75+0,0.75+39,0.75+61,0.75+100 */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(153, 149, 132, 0.75) 0%, rgba(176, 145, 92, 0.75) 39%, rgba(176, 145, 92, 0.75) 61%, rgba(79, 56, 28, 0.75) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf999584', endColorstr='#bf4f381c',GradientType=0 );
+  /* IE6-9 */
+  box-shadow: -5px 15px 15px 2.5px rgba(0, 0, 0, 0.25); }
+
+.base-transparent {
+  background-color: rgba(255, 255, 255, 0.195); }
+
+.panel-heading .panel-title {
+  /*font-family: "Alegreya Sans SC", sans-serif;*/
+  font-weight: 700;
+  letter-spacing: 0.125em; }
+
+.panel-footer {
+  /*font-family: "Alegreya Sans SC", sans-serif;*/
+  font-size: 1.125em;
+  font-weight: 500;
+  letter-spacing: 0.0625em; }
+
+a, a span, a:hover {
+  text-decoration: none; }
+
+h1 {
+  font-family: 'Philosopher';
+  font-weight: 100; }
+
+.centered {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 99%; }
+
+.constrain {
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis; }
+
+.glyphicon {
+  color: rgba(173, 123, 61, 0.9); }
 
 /*# sourceMappingURL=app.css.map */
 /*# sourceMappingURL=final.css.map */

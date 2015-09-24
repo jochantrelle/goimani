@@ -10,7 +10,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ route('home') }}">IMANI</a>
+          <a class="navbar-brand" href="{{ route('home') }}">
+            <div class="col-xs-12">
+              <img class="col-xs-12 visible-xs" src="{{ url('images/social/imani_icon.png') }}" alt="brand image" title="brand image">
+              <span class="col-xs-3 visible-sm visible-md visible-lg pre">GO</span>
+              <span class="col-xs-9 visible-sm visible-md visible-lg name" >IMANI</span>
+            </div>
+          </a>
 
         </div>
 
